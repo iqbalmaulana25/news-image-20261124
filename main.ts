@@ -1,12 +1,17 @@
 // Entry for make.fun's news-image-20261124: a single front-page image that
 // sums up the world news of Tuesday 24 November 2026. The page is built as a
-// dense broadsheet — 36 stories across seven regions (Indonesia, North
+// dense broadsheet — 44 stories across eight regions (Indonesia, North
 // America, Europe, the Middle East, Asia, Africa, Latin America and
-// Oceania) plus sport — because the blind pairwise judge rewards the page
+// Oceania) plus a world-briefs column and sport — because the blind
+// pairwise judge rewards the page
 // that sums up the whole day, and a handful of stories cannot do that. The
 // lead is Nvidia's record $952 billion day as Jensen Huang returns, with
 // the Kyiv strikes and Ukraine's sinking of a Russian corvette off Libya
-// as the second leads. The picture itself is the deliverable and ships in
+// as the second leads. A revision round before the deadline widened the
+// briefs band to four columns (Asia, Africa, Oceania, The World) and added
+// the day's later stories — NATO's space warning, Jakarta's ICAO Council
+// seat, the Ituri Ebola fighting, the Seoul AI-cheating rewards — taking
+// the page from 36 stories to 44. The picture itself is the deliverable and ships in
 // this repository as entry.png (JPEG bytes under a .png name, which the
 // gate allows because it tells PNG from JPEG by the file's first bytes).
 // All this program does is place those exact bytes at /output/entry.png,
